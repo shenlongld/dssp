@@ -108,7 +108,7 @@ if(NOT (mcfp_FOUND OR TARGET mcfp))
 	FetchContent_Declare(
 		mcfp
 		${EXLC}
-		GIT_REPOSITORY https://github.com/mhekkel/libmcfp
+		GIT_REPOSITORY git@github.com:PDB-REDO/libcifpp.git
 		GIT_TAG v1.3.4)
 
 	FetchContent_MakeAvailable(mcfp)
@@ -127,7 +127,7 @@ if(NOT TARGET cifpp AND NOT cifpp_FOUND)
 		FetchContent_Declare(
 			cifpp
 			${EXLC}
-			GIT_REPOSITORY https://github.com/pdb-redo/libcifpp.git
+			GIT_REPOSITORY git@github.com:PDB-REDO/libcifpp.git
 			GIT_TAG v7.0.7
 		)
 
